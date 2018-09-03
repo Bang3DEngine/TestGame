@@ -43,6 +43,7 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/ALAudioSource.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Octree.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/FPSChrono.h
+/home/sephirot47/Projects/BangEditor/Bang/include/Bang/MetaNode.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IBO.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/ImageIO.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/ICloneable.h
@@ -51,7 +52,6 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Path.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/USet.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/GLUniforms.h
-/home/sephirot47/Projects/BangEditor/Bang/include/Bang/XMLNodeReader.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/GUIDManager.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Map.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Vector3.h
@@ -79,7 +79,6 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/AudioManager.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/UIFileList.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/MutexLocker.h
-/home/sephirot47/Projects/BangEditor/Bang/include/Bang/XMLNode.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IEventsName.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Containers.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Ray2D.h
@@ -167,6 +166,7 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Matrix3.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/GameObject.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/ILayoutController.h
+/home/sephirot47/Projects/BangEditor/Bang/include/Bang/MetaAttribute.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/UIImageRenderer.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/DirectionalLight.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IEventsRendererChanged.h
@@ -199,7 +199,6 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/UIGridLayout.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/BangDefines.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/TypeMap.h
-/home/sephirot47/Projects/BangEditor/Bang/include/Bang/XMLAttribute.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IEventsComponent.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Time.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Random.h
@@ -236,6 +235,7 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Cursor.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/TextureUnitManager.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/GBuffer.h
+/home/sephirot47/Projects/BangEditor/Bang/include/Bang/XMLMetaReader.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/AABox.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Triangle.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/ImportFilesManager.h

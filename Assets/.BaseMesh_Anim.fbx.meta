@@ -1,0 +1,71 @@
+Model:
+  GUID: 1535698940357466738 1603767039166513153 0
+  Children:
+    Material0.bmat:
+      AlbedoColor: (0.64, 0.64, 0.64, 1)
+      AlbedoTexture: 0 0 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1535698940357466738 1603767039166513153 1
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.5
+      RoughnessTexture: 0 0 0
+      VertexShader: 1510299163478730097 0 0
+      Children:
+        {}
+    Material0_Anim.bmat:
+      AlbedoColor: (1, 0, 0, 1)
+      AlbedoTexture: 0 0 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1535698940357466738 1603767039166513153 2
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.153
+      RoughnessTexture: 0 0 0
+      VertexShader: 1530526479287055352 4115801876253900801 0
+      Children:
+        {}
+    Mesh.0010.bmesh:
+      GUID: 1535698940357466738 1603767039166513153 3
+      Children:
+        {}
+    Root|Idle0.banim:
+      GUID: 1535698940357466738 1603767039166513153 4
+      Speed: 1
+      WrapMode: 1
+      Children:
+        {}
+    Root|Run_loop1.banim:
+      GUID: 1535698940357466738 1603767039166513153 5
+      Speed: 1
+      WrapMode: 1
+      Children:
+        {}
+    Root|Walk_loop2.banim:
+      GUID: 1535698940357466738 1603767039166513153 6
+      Speed: 1
+      WrapMode: 1
+      Children:
+        {}

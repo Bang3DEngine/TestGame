@@ -1,0 +1,1469 @@
+Scene:
+  DontDestroyOnLoad: False
+  Enabled: True
+  GUID: 1535528051081486918 14190744569309560833 0
+  Name: Scene
+  Visible: True
+  Children:
+    Transform:
+      Enabled: True
+      GUID: 1535528051099683461 15750955967170215937 0
+      Position: (0, 0, 0)
+      Rotation: (0, 0, 0, 1)
+      Scale: (1, 1, 1)
+      Children:
+        {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535657915629295008 13426513619261063169 0
+      Name: Empty
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535657915629326299 10420293797781962753 0
+          Position: (0, 0, 0)
+          Rotation: (0, 0, 0, 1)
+          Scale: (1, 1, 1)
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535528051101512321 2513309583380840449 0
+      Name: Light3
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535528051101543659 12031256453357502465 0
+          Position: (0, 4.08518, 0.814518)
+          Rotation: (-0.507642, -0.377431, 0.221695, 0.742089)
+          Scale: (1, 1, 1)
+          Children:
+            {}
+        DirectionalLight:
+          Color: (1, 1, 1, 1)
+          Enabled: True
+          GUID: 1535613355532325168 10748621163975409665 0
+          Intensity: 1
+          ShadowBias: 0.005
+          ShadowDistance: 100
+          ShadowMapSize: (2048, 2048)
+          ShadowType: 2
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535528051254757395 17910072448192086017 0
+      Name: Floor
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535528051254815117 161430022312165377 0
+          Position: (-0.160981, -1, 0)
+          Rotation: (0, 0, 0, 1)
+          Scale: (51.3734, 0.2, 100)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535528051254869673 16441944049646043137 0
+          Material: 1535622574517515157 5055114659862937601 0
+          Mesh: 4107117383661912065 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535528051254994099 11236997840754442241 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535528051256244536 15886809424874962945 0
+      Name: Wall2
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535528051256274560 14681071779716268033 0
+          Position: (0, 3, -50)
+          Rotation: (0, 0.707107, 0, 0.707107)
+          Scale: (0.2, 10, 50)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535528051256311458 8829490138145882113 0
+          Material: 1535622389427016970 5495223875694231553 0
+          Mesh: 4107117383661912065 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535528051256408483 9471321804522913793 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535528051255952148 12597280641290076161 0
+      Name: Wall1
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535528051255987819 17816333584366043137 0
+          Position: (-25, 3, 0)
+          Rotation: (0, 0, 0, 1)
+          Scale: (0.2, 10, 100)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535528051256029550 14345694344965521409 0
+          Material: 1535622389427016970 5495223875694231553 0
+          Mesh: 4107117383661912065 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535528051256137393 6316180279887134721 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535528128196108514 12598535184057368577 0
+      Name: Wall1_1
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535528128196225016 6375932689542807553 0
+          Position: (25, 3, 0)
+          Rotation: (0, 0, 0, 1)
+          Scale: (0.2, 10, 100)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535528128196271744 13375138938453229569 0
+          Material: 1535622389427016970 5495223875694231553 0
+          Mesh: 4107117383661912065 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535528128196580883 11443192554846158849 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535528136561105971 14739752715290673153 0
+      Name: Wall2_1
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535528136561142560 11874449602562228225 0
+          Position: (0, 3, 50)
+          Rotation: (0, 0.707107, 0, 0.707107)
+          Scale: (0.2, 10, 50)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535528136561177020 804979813046550529 0
+          Material: 1535622389427016970 5495223875694231553 0
+          Mesh: 4107117383661912065 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535528136561339679 7790099806176673793 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535639740669477156 2647313662527668225 0
+      Name: Player_1
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535639740679115223 8755375907608199169 0
+          Position: (2.801, -0.876758, 17.862)
+          Rotation: (0, 0, 0, 1)
+          Scale: (1, 1, 1)
+          Children:
+            {}
+        RigidBody:
+          AngularDrag: 0.05
+          Constraints: 56
+          Drag: 0
+          Enabled: True
+          GUID: 1535639740680060466 1317764548450582529 0
+          IsKinematic: False
+          Mass: 1
+          UseGravity: True
+          Children:
+            {}
+        BehaviourContainer:
+          Enabled: True
+          GUID: 1535639740680187156 5539125175968071681 0
+          SourceFilepath: /home/sephirot47/Projects/TestGame/Assets/Behaviours/Player.cpp
+          Children:
+            {}
+        GameObject:
+          DontDestroyOnLoad: False
+          Enabled: True
+          GUID: 1535639740669513070 6347616966592692225 0
+          Name: Capsule
+          Visible: True
+          Children:
+            Transform:
+              Enabled: True
+              GUID: 1535639740678593918 7828446373706989569 0
+              Position: (0, 2.24602, -1.62335)
+              Rotation: (0, 0, 0, 1)
+              Scale: (1, 1, 1)
+              Children:
+                {}
+            MeshRenderer:
+              CastsShadows: True
+              DepthMask: True
+              Enabled: True
+              GUID: 1535640304522697668 12428986093007798273 0
+              Material: 1535584773477446701 15441690834067521537 0
+              Mesh: 1535182733559451562 4115801876253900801 3
+              ReceivesShadows: True
+              UseReflectionProbes: False
+              Visible: True
+              Children:
+                {}
+            CapsuleCollider:
+              Axis3D: 1
+              Center: (0, 0, 0)
+              Enabled: True
+              GUID: 1535639740678730709 3862360597760835585 0
+              Height: 1
+              IsTrigger: False
+              PhysicsMaterial: 1535584924006067100 10769572358042681345 0
+              Radius: 0.5
+              Children:
+                {}
+            GameObject:
+              DontDestroyOnLoad: False
+              Enabled: True
+              GUID: 1535639740669526331 15656060417111752705 0
+              Name: Camera
+              Visible: True
+              Children:
+                Transform:
+                  Enabled: True
+                  GUID: 1535639740669540362 7496984299862753281 0
+                  Position: (0, 0.952515, 4.60601)
+                  Rotation: (-0.144561, 0, 0, 0.989496)
+                  Scale: (1, 1, 1)
+                  Children:
+                    {}
+                Camera:
+                  ClearColor: (0.7, 0.9, 1, 1)
+                  ClearMode: 1
+                  Enabled: True
+                  FOVDegrees: 60
+                  GUID: 1535639740669621741 8303678388975960065 0
+                  OrthoHeight: 25
+                  ProjectionMode: 1
+                  SkyBoxTexture: 1524336596855112311 1047391890401394689 0
+                  ZFar: 100
+                  ZNear: 0.1
+                  Children:
+                    {}
+            GameObject:
+              DontDestroyOnLoad: False
+              Enabled: True
+              GUID: 1535639740677136339 7685325693898457089 0
+              Name: Sphere
+              Visible: True
+              Children:
+                Transform:
+                  Enabled: True
+                  GUID: 1535639740678251584 14094033725553639425 0
+                  Position: (0, -1.3688, 0)
+                  Rotation: (0, 0, 0, 1)
+                  Scale: (0.351816, 0.351816, 0.351816)
+                  Children:
+                    {}
+                MeshRenderer:
+                  CastsShadows: True
+                  DepthMask: True
+                  Enabled: True
+                  GUID: 1535639740678281122 3361335139215867905 0
+                  Material: 1535639767209369145 7577318467678765057 0
+                  Mesh: 2516571284624637953 0 3
+                  ReceivesShadows: True
+                  UseReflectionProbes: False
+                  Visible: True
+                  Children:
+                    {}
+                SphereCollider:
+                  Center: (0, 0, 0)
+                  Enabled: True
+                  GUID: 1535639740678450143 5745168157455155201 0
+                  IsTrigger: False
+                  PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                  Radius: 1
+                  Children:
+                    {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1535639740677188689 17433746418853478401 0
+                  Name: Cube
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1535639740677213125 10076785474543812609 0
+                      Position: (-0.631804, -1.40343, 0.0432529)
+                      Rotation: (-0.754331, 0.12775, -0.15413, 0.625226)
+                      Scale: (0.423644, 0.489467, 1.4053)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1535639740677262847 9270106778593394689 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 4107117383661912065 0 3
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    BoxCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1535639740677432750 1677517606233309185 0
+                      HalfExtents: (0.5, 0.5, 0.5)
+                      IsTrigger: False
+                      PhysicsMaterial: 1535584924006067100 10769572358042681345 0
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1535639740677531015 15493940726131064833 0
+                  Name: Cube_1
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1535639740677559777 7982353262584004609 0
+                      Position: (0.826838, -1.3705, 0.0322309)
+                      Rotation: (-0.721567, -0.222578, 0.268539, 0.598069)
+                      Scale: (0.423644, 0.489467, 1.4285)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1535639740677592192 5969056212661043201 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 4107117383661912065 0 3
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    BoxCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1535639740677697614 13918496694179201025 0
+                      HalfExtents: (0.5, 0.5, 0.5)
+                      IsTrigger: False
+                      PhysicsMaterial: 1535584924006067100 10769572358042681345 0
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1535639740677764400 6193540752924999681 0
+                  Name: Cube_2
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1535639740677818858 16497320952778981377 0
+                      Position: (-1.3992, 0.312331, -0.283497)
+                      Rotation: (-0.556746, -0.440777, 0.531795, 0.461458)
+                      Scale: (0.423644, 0.489467, 1.10952)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1535639740677846368 18125613011119898625 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 4107117383661912065 0 3
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    BoxCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1535639740677935793 7615605111825367041 0
+                      HalfExtents: (0.5, 0.5, 0.5)
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1535639740677999113 5864937409312980993 0
+                  Name: Cube_3
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1535639740678021216 9292840281009291265 0
+                      Position: (1.20806, 0.179878, -0.260357)
+                      Rotation: (-0.556746, -0.440777, 0.531795, 0.461458)
+                      Scale: (0.423644, 0.489467, 1.10952)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1535639740678048479 5465005447872249857 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 4107117383661912065 0 3
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    BoxCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1535639740678152606 1738830772644610049 0
+                      HalfExtents: (0.5, 0.5, 0.5)
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Children:
+                        {}
+        GameObject:
+          DontDestroyOnLoad: False
+          Enabled: True
+          GUID: 1535703928422630026 4286904852111425537 0
+          Name: RootNode
+          Visible: True
+          Children:
+            Transform:
+              Enabled: True
+              GUID: 1535703928422650154 14469790724834459649 0
+              Position: (0, 0, 0)
+              Rotation: (-3.09086e-08, -0.707107, -0.707107, -3.09086e-08)
+              Scale: (0.02, 0.02, 0.02)
+              Children:
+                {}
+            GameObject:
+              DontDestroyOnLoad: False
+              Enabled: True
+              GUID: 1535703928422699645 4267981157485772801 0
+              Name: Root
+              Visible: True
+              Children:
+                Transform:
+                  Enabled: True
+                  GUID: 1535703928422712519 3094382237206970369 0
+                  Position: (0, 0, 0)
+                  Rotation: (0, 0, 0, 1)
+                  Scale: (1, 1, 1)
+                  Children:
+                    {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1535703928422735296 8450707832621236225 0
+                  Name: hips
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1535703928422745557 10251685888685768705 0
+                      Position: (0, 5.09435, 93.2026)
+                      Rotation: (0.778973, 0, 0, 0.627058)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    GameObject:
+                      DontDestroyOnLoad: False
+                      Enabled: True
+                      GUID: 1535703928422791583 8221308475381121025 0
+                      Name: spine
+                      Visible: True
+                      Children:
+                        Transform:
+                          Enabled: True
+                          GUID: 1535703928422804198 15187429869655949313 0
+                          Position: (0, 16.4187, 5.96046e-07)
+                          Rotation: (-0.0546678, 0, 0, 0.998505)
+                          Scale: (1, 1, 1)
+                          Children:
+                            {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1535703928422839472 8218095702404759553 0
+                          Name: chest
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1535703928422851968 14311328009527754753 0
+                              Position: (0, 14.673, -4.09782e-08)
+                              Rotation: (-0.0702504, 0, 0, 0.997529)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            GameObject:
+                              DontDestroyOnLoad: False
+                              Enabled: True
+                              GUID: 1535703928422885155 4297315028203208705 0
+                              Name: neck
+                              Visible: True
+                              Children:
+                                Transform:
+                                  Enabled: True
+                                  GUID: 1535703928422897437 10879808294331875329 0
+                                  Position: (0, 29.2179, 2.38419e-07)
+                                  Rotation: (0.159324, 1.17687e-07, 1.89929e-08, 0.987226)
+                                  Scale: (1, 1, 1)
+                                  Children:
+                                    {}
+                                GameObject:
+                                  DontDestroyOnLoad: False
+                                  Enabled: True
+                                  GUID: 1535703928422930648 2059025188766351361 0
+                                  Name: head
+                                  Visible: True
+                                  Children:
+                                    Transform:
+                                      Enabled: True
+                                      GUID: 1535703928422942307 2498598392679104513 0
+                                      Position: (-4.54747e-13, 11.8392, -1.43051e-06)
+                                      Rotation: (-0.142147, 4.7685e-09, -3.32057e-08, 0.989846)
+                                      Scale: (1, 1, 1)
+                                      Children:
+                                        {}
+                            GameObject:
+                              DontDestroyOnLoad: False
+                              Enabled: True
+                              GUID: 1535703928423230728 18188505076228685825 0
+                              Name: upper_arm.L
+                              Visible: True
+                              Children:
+                                Transform:
+                                  Enabled: True
+                                  GUID: 1535703928423245984 3850145573332058113 0
+                                  Position: (18.1794, 19.229, -0.693217)
+                                  Rotation: (-0.22916, -0.112242, 0.950995, -0.174631)
+                                  Scale: (1, 1, 1)
+                                  Children:
+                                    {}
+                                GameObject:
+                                  DontDestroyOnLoad: False
+                                  Enabled: True
+                                  GUID: 1535703928423283532 13154248151944658945 0
+                                  Name: forearm.L
+                                  Visible: True
+                                  Children:
+                                    Transform:
+                                      Enabled: True
+                                      GUID: 1535703928423295579 12743175938691301377 0
+                                      Position: (1.2517e-05, 26.5569, -2.14577e-06)
+                                      Rotation: (0.332394, -0.00751307, -0.082095, 0.939531)
+                                      Scale: (1, 1, 1)
+                                      Children:
+                                        {}
+                                    GameObject:
+                                      DontDestroyOnLoad: False
+                                      Enabled: True
+                                      GUID: 1535703928423328984 5604567008541671425 0
+                                      Name: hand.L
+                                      Visible: True
+                                      Children:
+                                        Transform:
+                                          Enabled: True
+                                          GUID: 1535703928423340981 8892747790870904833 0
+                                          Position: (9.53674e-07, 23.6521, 9.53674e-07)
+                                          Rotation: (-0.122332, 0.614858, -0.0345144, 0.778327)
+                                          Scale: (1, 1, 1)
+                                          Children:
+                                            {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928423374258 9798614530274623489 0
+                                          Name: f_index.01.L
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928423386241 1254962780734226433 0
+                                              Position: (-3.51183, 12.4551, 0.62639)
+                                              Rotation: (0.0127835, 0.144049, 0.0576137, 0.987809)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928423419101 1312198683151826945 0
+                                              Name: f_index.02.L
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928423430862 16877767369152266241 0
+                                                  Position: (-9.53674e-07, 3.48463, 2.38419e-06)
+                                                  Rotation: (0.162776, -0.00530542, -0.0334091, 0.986083)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928423463979 15655833917716430849 0
+                                                  Name: f_index.03.L
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928423475647 18134125430142140417 0
+                                                      Position: (-9.53674e-07, 3.22405, 9.53674e-07)
+                                                      Rotation: (0.0956897, 0.0104128, 0.0235064, 0.995079)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928423553249 17998734866832687105 0
+                                          Name: thumb.02.L
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928423566658 4332317431117643777 0
+                                              Position: (-4.20253, 6.52345, 4.12216)
+                                              Rotation: (0.191992, 0.7475, 0.32307, 0.54773)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928423602097 3594189986624176129 0
+                                              Name: thumb.03.L
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928423614055 12436596912495263745 0
+                                                  Position: (9.53674e-07, 3.9211, 1.90735e-06)
+                                                  Rotation: (-0.0175728, -0.00116846, -0.00312412, 0.99984)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928423674639 1791288472405803009 0
+                                          Name: f_middle.01.L
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928423687983 7881094838735601665 0
+                                              Position: (-0.752211, 12.2826, -0.000746965)
+                                              Rotation: (0.0754898, -0.00946019, -0.0137662, 0.997007)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928423722318 8459643563620171777 0
+                                              Name: f_middle.02.L
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928423733991 6059269492452622337 0
+                                                  Position: (-4.76837e-07, 3.32699, 0)
+                                                  Rotation: (0.211245, -0.017295, -0.0535617, 0.975811)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928423766152 10975476801064665089 0
+                                                  Name: f_middle.03.L
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928423777877 16910351396241408001 0
+                                                      Position: (0, 3.6307, -2.38419e-07)
+                                                      Rotation: (0.150567, -0.0441745, -0.0549575, 0.986082)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928423851131 16310954831382577153 0
+                                          Name: f_ring.01.L
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928423864670 750041477614141441 0
+                                              Position: (2.23796, 11.2874, 0.215408)
+                                              Rotation: (0.0811604, -0.0883191, -0.0921539, 0.988494)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928423898728 13651037192187805697 0
+                                              Name: f_ring.02.L
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928423911129 6082306460077785089 0
+                                                  Position: (1.43051e-06, 3.01717, 3.89665e-06)
+                                                  Rotation: (0.218895, -0.011215, -0.0373385, 0.974969)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928423943317 15061369762019803137 0
+                                                  Name: f_ring.03.L
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928423954744 17948353045024735233 0
+                                                      Position: (4.76837e-07, 3.0333, 8.04663e-07)
+                                                      Rotation: (0.254516, -0.031322, -0.0322868, 0.966022)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928424027514 16962114204653846529 0
+                                          Name: f_pinky.01.L
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928424040637 17120394401030340609 0
+                                              Position: (4.59785, 10.0131, 0.843018)
+                                              Rotation: (0.133935, -0.12411, -0.170902, 0.96822)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928424074416 2000206951677427713 0
+                                              Name: f_pinky.02.L
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928424086032 16703875207172980737 0
+                                                  Position: (-7.15256e-07, 2.16972, -5.94184e-07)
+                                                  Rotation: (0.278575, 0.011613, 0.028473, 0.959922)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928424118174 2523796175530754049 0
+                                                  Name: f_pinky.03.L
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928424129665 15154455515938947073 0
+                                                      Position: (-2.08616e-07, 1.87733, 1.44541e-06)
+                                                      Rotation: (0.163581, 0.0258616, 0.0234579, 0.985912)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                            GameObject:
+                              DontDestroyOnLoad: False
+                              Enabled: True
+                              GUID: 1535703928424328293 11000308171666358273 0
+                              Name: upper_arm.R
+                              Visible: True
+                              Children:
+                                Transform:
+                                  Enabled: True
+                                  GUID: 1535703928424342167 8128363458950332417 0
+                                  Position: (-18.1794, 19.229, -0.693217)
+                                  Rotation: (0.22916, -0.112242, 0.950995, 0.174631)
+                                  Scale: (1, 1, 1)
+                                  Children:
+                                    {}
+                                GameObject:
+                                  DontDestroyOnLoad: False
+                                  Enabled: True
+                                  GUID: 1535703928424376501 5600458683344486401 0
+                                  Name: forearm.R
+                                  Visible: True
+                                  Children:
+                                    Transform:
+                                      Enabled: True
+                                      GUID: 1535703928424387989 2352177803597709313 0
+                                      Position: (-1.27554e-05, 26.5569, -4.76837e-06)
+                                      Rotation: (0.332394, 0.00751307, 0.082095, 0.939531)
+                                      Scale: (1, 1, 1)
+                                      Children:
+                                        {}
+                                    GameObject:
+                                      DontDestroyOnLoad: False
+                                      Enabled: True
+                                      GUID: 1535703928424420552 9383325689928744961 0
+                                      Name: hand.R
+                                      Visible: True
+                                      Children:
+                                        Transform:
+                                          Enabled: True
+                                          GUID: 1535703928424431821 6912657641374220289 0
+                                          Position: (-1.90735e-06, 23.6521, -4.76837e-06)
+                                          Rotation: (-0.122332, -0.614858, 0.0345144, 0.778327)
+                                          Scale: (1, 1, 1)
+                                          Children:
+                                            {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928424463748 783200961601470465 0
+                                          Name: f_index.01.R
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928424474939 6592416083691438081 0
+                                              Position: (3.51182, 12.4551, 0.626393)
+                                              Rotation: (0.0127835, -0.144049, -0.0576137, 0.987809)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928424506976 6600039547562622977 0
+                                              Name: f_index.02.R
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928424518229 335192098321989633 0
+                                                  Position: (1.90735e-06, 3.48462, 0)
+                                                  Rotation: (0.162776, 0.00530546, 0.0334091, 0.986083)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928424549736 10924733239931174913 0
+                                                  Name: f_index.03.R
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928424560920 10194229809064706049 0
+                                                      Position: (-9.53674e-07, 3.22405, 2.38419e-06)
+                                                      Rotation: (0.0956897, -0.0104127, -0.0235064, 0.995079)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928424632292 12771788529780916225 0
+                                          Name: thumb.02.R
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928424645242 12716021300020117505 0
+                                              Position: (4.20252, 6.52346, 4.12216)
+                                              Rotation: (-0.191992, 0.7475, 0.32307, -0.54773)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928424679294 18075324647800307713 0
+                                              Name: thumb.03.R
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928424690918 2784688294569443329 0
+                                                  Position: (2.86102e-06, 3.92109, -1.90735e-06)
+                                                  Rotation: (-0.0175728, 0.00116846, 0.00312413, 0.99984)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928424750763 328547199799525377 0
+                                          Name: f_middle.01.R
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928424764018 10604057375155421185 0
+                                              Position: (0.752205, 12.2826, -0.000740767)
+                                              Rotation: (0.0754898, 0.0094602, 0.0137662, 0.997007)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928424797687 1248296166857113601 0
+                                              Name: f_middle.02.R
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928424809106 16639502099901579265 0
+                                                  Position: (-1.43051e-06, 3.32698, 3.8147e-06)
+                                                  Rotation: (0.211245, 0.017295, 0.0535617, 0.975811)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928424843737 11354099127647469569 0
+                                                  Name: f_middle.03.R
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928424855229 14899333633922826241 0
+                                                      Position: (-9.53674e-07, 3.6307, 2.14577e-06)
+                                                      Rotation: (0.150567, 0.0441745, 0.0549575, 0.986082)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928424927943 4275064486269812737 0
+                                          Name: f_ring.01.R
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928424941154 7968724266201907201 0
+                                              Position: (-2.23797, 11.2874, 0.215412)
+                                              Rotation: (0.0811604, 0.0883191, 0.0921539, 0.988494)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928424974535 14400942605238009857 0
+                                              Name: f_ring.02.R
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928424986060 2790434617214107649 0
+                                                  Position: (-2.38419e-07, 3.01717, 2.31713e-06)
+                                                  Rotation: (0.218895, 0.011215, 0.0373385, 0.974969)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928425018019 6642374593522696193 0
+                                                  Name: f_ring.03.R
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928425029252 16401148869720670209 0
+                                                      Position: (2.38419e-07, 3.03331, -2.38419e-07)
+                                                      Rotation: (0.254516, 0.031322, 0.0322868, 0.966022)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                                        GameObject:
+                                          DontDestroyOnLoad: False
+                                          Enabled: True
+                                          GUID: 1535703928425098706 1047565956835966977 0
+                                          Name: f_pinky.01.R
+                                          Visible: True
+                                          Children:
+                                            Transform:
+                                              Enabled: True
+                                              GUID: 1535703928425111777 9166171043931357185 0
+                                              Position: (-4.59785, 10.0132, 0.843025)
+                                              Rotation: (0.133935, 0.12411, 0.170902, 0.96822)
+                                              Scale: (1, 1, 1)
+                                              Children:
+                                                {}
+                                            GameObject:
+                                              DontDestroyOnLoad: False
+                                              Enabled: True
+                                              GUID: 1535703928425145561 13108860311950065665 0
+                                              Name: f_pinky.02.R
+                                              Visible: True
+                                              Children:
+                                                Transform:
+                                                  Enabled: True
+                                                  GUID: 1535703928425156879 12047873372588081153 0
+                                                  Position: (1.78814e-07, 2.16972, -1.53482e-06)
+                                                  Rotation: (0.278575, -0.011613, -0.028473, 0.959922)
+                                                  Scale: (1, 1, 1)
+                                                  Children:
+                                                    {}
+                                                GameObject:
+                                                  DontDestroyOnLoad: False
+                                                  Enabled: True
+                                                  GUID: 1535703928425188999 17294533953125875713 0
+                                                  Name: f_pinky.03.R
+                                                  Visible: True
+                                                  Children:
+                                                    Transform:
+                                                      Enabled: True
+                                                      GUID: 1535703928425200277 262575436981075969 0
+                                                      Position: (1.19209e-07, 1.87734, -2.25753e-06)
+                                                      Rotation: (0.163581, -0.0258616, -0.0234579, 0.985912)
+                                                      Scale: (1, 1, 1)
+                                                      Children:
+                                                        {}
+                    GameObject:
+                      DontDestroyOnLoad: False
+                      Enabled: True
+                      GUID: 1535703928425565901 14400050901307883521 0
+                      Name: thigh.L
+                      Visible: True
+                      Children:
+                        Transform:
+                          Enabled: True
+                          GUID: 1535703928425579667 8231116119100882945 0
+                          Position: (10.5474, 1.63701, 3.68536)
+                          Rotation: (0.986248, -0.00812765, -0.0667591, 0.150972)
+                          Scale: (1, 1, 1)
+                          Children:
+                            {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1535703928425614333 7175233112715034625 0
+                          Name: shin.L
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1535703928425625895 15183252824982028289 0
+                              Position: (4.76837e-07, 40.6492, -5.96046e-07)
+                              Rotation: (0.230496, -0.0120211, -0.0106649, 0.972941)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            GameObject:
+                              DontDestroyOnLoad: False
+                              Enabled: True
+                              GUID: 1535703928425657734 14823532202792321025 0
+                              Name: foot.L
+                              Visible: True
+                              Children:
+                                Transform:
+                                  Enabled: True
+                                  GUID: 1535703928425669347 13775272110521843713 0
+                                  Position: (-5.58794e-07, 53.8113, -5.96046e-07)
+                                  Rotation: (-0.0115169, -0.600634, 0.797478, 0.0559905)
+                                  Scale: (1, 1, 1)
+                                  Children:
+                                    {}
+                                GameObject:
+                                  DontDestroyOnLoad: False
+                                  Enabled: True
+                                  GUID: 1535703928425701275 15518444442267680769 0
+                                  Name: toe.L
+                                  Visible: True
+                                  Children:
+                                    Transform:
+                                      Enabled: True
+                                      GUID: 1535703928425712346 7301521369013944321 0
+                                      Position: (1.57952e-06, 19.3099, -1.3411e-07)
+                                      Rotation: (0.0502714, -0.0480497, 0.0125979, 0.9975)
+                                      Scale: (1, 1, 1)
+                                      Children:
+                                        {}
+                    GameObject:
+                      DontDestroyOnLoad: False
+                      Enabled: True
+                      GUID: 1535703928425799699 5522757845876998145 0
+                      Name: thigh.R
+                      Visible: True
+                      Children:
+                        Transform:
+                          Enabled: True
+                          GUID: 1535703928425812856 9843488898339045377 0
+                          Position: (-10.5474, 1.63701, 3.68536)
+                          Rotation: (0.986248, 0.00812769, 0.066759, 0.150972)
+                          Scale: (0.999999, 1, 1)
+                          Children:
+                            {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1535703928425846435 1570798870202417153 0
+                          Name: shin.R
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1535703928425858084 5151337870211940353 0
+                              Position: (-1.49012e-06, 40.6492, -8.34465e-07)
+                              Rotation: (0.230496, 0.0120211, 0.0106649, 0.972941)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            GameObject:
+                              DontDestroyOnLoad: False
+                              Enabled: True
+                              GUID: 1535703928425889946 12628176918030581761 0
+                              Name: foot.R
+                              Visible: True
+                              Children:
+                                Transform:
+                                  Enabled: True
+                                  GUID: 1535703928425901164 1899346138721419265 0
+                                  Position: (-1.49012e-07, 53.8113, -1.07288e-06)
+                                  Rotation: (0.0115169, -0.600633, 0.797479, -0.0559908)
+                                  Scale: (1, 1, 1)
+                                  Children:
+                                    {}
+                                GameObject:
+                                  DontDestroyOnLoad: False
+                                  Enabled: True
+                                  GUID: 1535703928425932819 15755394695611547649 0
+                                  Name: toe.R
+                                  Visible: True
+                                  Children:
+                                    Transform:
+                                      Enabled: True
+                                      GUID: 1535703928425943855 13876473359765602305 0
+                                      Position: (-1.81794e-06, 19.3099, -7.45058e-08)
+                                      Rotation: (0.0502714, 0.0480497, -0.0125979, 0.9975)
+                                      Scale: (1, 1, 1)
+                                      Children:
+                                        {}
+            GameObject:
+              DontDestroyOnLoad: False
+              Enabled: True
+              GUID: 1535703928426774356 92104173503381505 0
+              Name: Human_BaseMesh
+              Visible: True
+              Children:
+                Transform:
+                  Enabled: True
+                  GUID: 1535703928426788323 8662749749549465601 0
+                  Position: (0, 0, 0)
+                  Rotation: (0, 0, 0, 1)
+                  Scale: (1, 1, 1)
+                  Children:
+                    {}
+                Animator:
+                  Animation: 1535698940357466738 1603767039166513153 5
+                  Enabled: True
+                  GUID: 1535703928426943542 4367168651183259649 0
+                  Children:
+                    {}
+                SkinnedMeshRenderer:
+                  CastsShadows: True
+                  DepthMask: True
+                  Enabled: True
+                  GUID: 1535703928426814855 10329062919978876929 0
+                  Material: 1535698940357466738 1603767039166513153 2
+                  Mesh: 1535698940357466738 1603767039166513153 3
+                  ReceivesShadows: True
+                  RootBoneGameObjectName: RootNode
+                  UseReflectionProbes: False
+                  Visible: True
+                  Children:
+                    {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535647119940050773 1554180439143350273 0
+      Name: Empty
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535647119940083619 10938819083394613249 0
+          Position: (9, 28, 1)
+          Rotation: (0.466344, -0.0127758, -0.661339, 0.587359)
+          Scale: (0.1, 92, 5)
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535659699706698439 11801758689826701313 0
+      Name: Sphere
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535659699706724892 9013983241484369921 0
+          Position: (0.839809, 0.917931, 11.7671)
+          Rotation: (0, 0, 0, 1)
+          Scale: (1, 1, 1)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535659699706781884 13895413547065671681 0
+          Material: 1535697760213598845 4135557076548059137 0
+          Mesh: 2516571284624637953 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: True
+          Visible: True
+          Children:
+            {}
+        SphereCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535659699706915579 11650936480821411841 0
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Radius: 1
+          Children:
+            {}
+        RigidBody:
+          AngularDrag: 0.05
+          Constraints: 0
+          Drag: 0
+          Enabled: True
+          GUID: 1535659718202382320 11439677416172158977 0
+          IsKinematic: False
+          Mass: 1
+          UseGravity: True
+          Children:
+            {}
+        GameObject:
+          DontDestroyOnLoad: False
+          Enabled: True
+          GUID: 1535659858608937085 1861788883100893185 0
+          Name: Empty
+          Visible: True
+          Children:
+            Transform:
+              Enabled: True
+              GUID: 1535659858608958292 11016399524338860033 0
+              Position: (0, 0, 0)
+              Rotation: (0, 0, 0, 1)
+              Scale: (1, 1, 1)
+              Children:
+                {}
+            ReflectionProbe:
+              CamerasClearColor: (0.5, 0.5, 0.5, 1)
+              CamerasClearMode: 1
+              CamerasSkyBoxTexture: 1524336596855112311 1047391890401394689 0
+              CamerasZFar: 15
+              CamerasZNear: 0.01
+              Enabled: False
+              FilterForIBL: True
+              GUID: 1535659870624788030 16637783563227365377 0
+              IsBoxed: True
+              RenderSize: 256
+              RestTimeSeconds: 0
+              Size: (10, 10, 10)
+              Children:
+                {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535659725527390566 7422850278115770369 0
+      Name: Sphere_1
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535659725527426673 13565507282174738433 0
+          Position: (3.02244, 0.917931, 11.7671)
+          Rotation: (0, 0, 0, 1)
+          Scale: (0.420167, 0.420167, 0.420167)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535659725527482639 17852100697617596417 0
+          Material: 1535697760213598845 4135557076548059137 0
+          Mesh: 2516571284624637953 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        SphereCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535659725527654703 394378500007526401 0
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Radius: 1
+          Children:
+            {}
+        RigidBody:
+          AngularDrag: 0.05
+          Constraints: 0
+          Drag: 0
+          Enabled: True
+          GUID: 1535659725527721005 3356465951972261889 0
+          IsKinematic: False
+          Mass: 1
+          UseGravity: True
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1535659737331713125 3042379735259676673 0
+      Name: Sphere_2
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1535659737331744894 14405737575446740993 0
+          Position: (1.462, 0.917931, 9.18011)
+          Rotation: (0, 0, 0, 1)
+          Scale: (0.506171, 0.506171, 0.506171)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1535659737331777185 2885393938946981889 0
+          Material: 1535697760213598845 4135557076548059137 0
+          Mesh: 2516571284624637953 0 3
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        SphereCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1535659737331872880 8225946765182894081 0
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Radius: 1
+          Children:
+            {}
+        RigidBody:
+          AngularDrag: 0.05
+          Constraints: 0
+          Drag: 0
+          Enabled: True
+          GUID: 1535659737331906192 5860792250476265473 0
+          IsKinematic: False
+          Mass: 1
+          UseGravity: True
+          Children:
+            {}
