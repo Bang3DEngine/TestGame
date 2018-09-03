@@ -1,0 +1,65 @@
+<Model GUID="1535698940357466738 1603767039166513153 0"
+      >
+    <Material0.bmat GUID="1535698940357466738 1603767039166513153 1"
+                    RenderPass="0"
+                    AlbedoColor="(0.64, 0.64, 0.64, 1)"
+                    Roughness="0.5"
+                    Metalness="0.1"
+                    ReceivesLighting="True"
+                    AlbedoUvMultiply="(1, 1)"
+                    AlbedoUvOffset="(0, 0)"
+                    NormalMapUvMultiply="(1, 1)"
+                    NormalMapUvOffset="(0, 0)"
+                    NormalMapMultiplyFactor="1"
+                    LineWidth="1"
+                    RenderWireframe="False"
+                    CullFace="1029"
+                    AlbedoTexture="0 0 0"
+                    RoughnessTexture="0 0 0"
+                    MetalnessTexture="0 0 0"
+                    NormalMapTexture="0 0 0"
+                    VertexShader="1510299163478730097 0 0"
+                    FragmentShader="1510299163478634161 0 0"
+                   >
+    </Material0.bmat>
+    <Material0_Anim.bmat GUID="1535698940357466738 1603767039166513153 2"
+                         RenderPass="0"
+                         AlbedoColor="(1, 0.428, 0.798656, 1)"
+                         Roughness="0.096"
+                         Metalness="1"
+                         ReceivesLighting="True"
+                         AlbedoUvMultiply="(1, 1)"
+                         AlbedoUvOffset="(0, 0)"
+                         NormalMapUvMultiply="(1, 1)"
+                         NormalMapUvOffset="(0, 0)"
+                         NormalMapMultiplyFactor="1"
+                         LineWidth="1"
+                         RenderWireframe="False"
+                         CullFace="1029"
+                         AlbedoTexture="1535622137990990136 2210192094666948609 0"
+                         RoughnessTexture="0 0 0"
+                         MetalnessTexture="0 0 0"
+                         NormalMapTexture="0 0 0"
+                         VertexShader="1530526479287055352 4115801876253900801 0"
+                         FragmentShader="1510299163478634161 0 0"
+                        >
+    </Material0_Anim.bmat>
+    <Mesh.0010.bmesh GUID="1535698940357466738 1603767039166513153 3"
+                    >
+    </Mesh.0010.bmesh>
+    <Root|Idle0.banim GUID="1535698940357466738 1603767039166513153 4"
+                      Speed="1"
+                      WrapMode="1"
+                     >
+    </Root|Idle0.banim>
+    <Root|Run_loop1.banim GUID="1535698940357466738 1603767039166513153 5"
+                          Speed="0.4"
+                          WrapMode="1"
+                         >
+    </Root|Run_loop1.banim>
+    <Root|Walk_loop2.banim GUID="1535698940357466738 1603767039166513153 6"
+                           Speed="1"
+                           WrapMode="1"
+                          >
+    </Root|Walk_loop2.banim>
+</Model>
