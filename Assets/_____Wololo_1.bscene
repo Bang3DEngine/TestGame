@@ -1,0 +1,2031 @@
+Scene:
+  DontDestroyOnLoad: False
+  Enabled: True
+  GUID: 1536077951372204552 17452175333246631937 0
+  Name: Scene
+  Visible: True
+  Children:
+    Transform:
+      Enabled: True
+      GUID: 1536077951381122050 2845310143044780033 0
+      Position: (0, 0, 0)
+      Rotation: (0, 0, 0, 1)
+      Scale: (1, 1, 1)
+      Children:
+        {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1536077951551100964 16537271707774222337 0
+      Name: Light3
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1536077951551118911 3303354867426263041 0
+          Position: (0, 5.95487, 0.500175)
+          Rotation: (0, 0, 0, 1)
+          Scale: (1, 1, 1)
+          Children:
+            {}
+        PointLight:
+          Color: (1, 0, 0, 1)
+          Enabled: True
+          GUID: 1536077951551147510 9067374426617544705 0
+          Intensity: 1
+          Range: 20
+          ShadowBias: 0.01
+          ShadowMapSize: (256, 256)
+          ShadowType: 1
+          Children:
+            {}
+        GameObject:
+          DontDestroyOnLoad: False
+          Enabled: True
+          GUID: 1536400075930669107 13447659426886451201 0
+          Name: 96Spheres
+          Visible: True
+          Children:
+            Transform:
+              Enabled: True
+              GUID: 1536400075930675942 1211949336099815425 0
+              Position: (0, -5.95487, -0.500175)
+              Rotation: (0, 0, 0, 1)
+              Scale: (1, 1, 1)
+              Children:
+                {}
+            GameObject:
+              DontDestroyOnLoad: False
+              Enabled: True
+              GUID: 1536400040204017000 17480881382824607745 0
+              Name: 12Spheres_2
+              Visible: True
+              Children:
+                Transform:
+                  Enabled: True
+                  GUID: 1536400040205678233 17634133512527282177 0
+                  Position: (0, 0, -2.85629)
+                  Rotation: (0, 0, 0, 1)
+                  Scale: (1, 1, 1)
+                  Children:
+                    {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204023260 6087619300263198721 0
+                  Name: Sphere_6
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204025631 8995204132637769729 0
+                      Position: (-5.09089, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204031133 17147994341910773761 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204066775 9170085305326239745 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204087523 4312337930451419137 0
+                  Name: Sphere_10
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204094387 5466948284918530049 0
+                      Position: (1.50593, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204101701 8523748939810209793 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204135583 2227062176449822721 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                    GameObject:
+                      DontDestroyOnLoad: False
+                      Enabled: True
+                      GUID: 1536400040204420612 14389879319239327745 0
+                      Name: Sphere_5
+                      Visible: True
+                      Children:
+                        Transform:
+                          Enabled: True
+                          GUID: 1536400040204426855 14186012271263612929 0
+                          Position: (-6.59682, 0, -1.60233)
+                          Rotation: (0, 0, 0, 1)
+                          Scale: (1, 1, 1)
+                          Children:
+                            {}
+                        MeshRenderer:
+                          CastsShadows: True
+                          DepthMask: True
+                          Enabled: True
+                          GUID: 1536400040204433534 3984539429350932481 0
+                          Material: 12542352338901270529 0 0
+                          Mesh: 1536077931248630471 8760700292665704449 2
+                          ReceivesShadows: True
+                          UseReflectionProbes: False
+                          Visible: True
+                          Children:
+                            {}
+                        SphereCollider:
+                          Center: (0, 0, 0)
+                          Enabled: True
+                          GUID: 1536400040204467407 9608479283018203137 0
+                          IsTrigger: False
+                          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                          Radius: 1
+                          Children:
+                            {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204155089 9629234764015730689 0
+                  Name: Sphere_11
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204161499 12867630759350894593 0
+                      Position: (3.61675, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204168355 16575070718513905665 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204202418 16872576574757535745 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204222133 3455578953756966913 0
+                  Name: Sphere_9
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204228324 218909397835841537 0
+                      Position: (-0.181854, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204235148 17077570622151720961 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204269030 16381224619513741313 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204287736 8377887177513631745 0
+                  Name: Sphere_8
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204293892 16584166978210496513 0
+                      Position: (-1.62753, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204300752 11107787632304717825 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204334395 6873762967297458177 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                    GameObject:
+                      DontDestroyOnLoad: False
+                      Enabled: True
+                      GUID: 1536400041937120687 102877489080041473 0
+                      Name: 12Spheres_3
+                      Visible: True
+                      Children:
+                        Transform:
+                          Enabled: True
+                          GUID: 1536400041938239531 81399774971953153 0
+                          Position: (1.62753, 0, -4.75099)
+                          Rotation: (0, 0, 0, 1)
+                          Scale: (1, 1, 1)
+                          Children:
+                            {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937126761 5783116152020402177 0
+                          Name: Sphere_6
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937129238 14095186013739548673 0
+                              Position: (-5.09089, 0, 1.60233)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937134689 6586566132075855873 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937170139 15546116950915547137 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937191230 16293194420059111425 0
+                          Name: Sphere_10
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937197509 2809663976072282113 0
+                              Position: (1.50593, 0, 1.60233)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937204924 4567106869235023873 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937239267 5332905722864730113 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937259187 9657308594407735297 0
+                          Name: Sphere_11
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937265527 11642653859729375233 0
+                              Position: (3.61675, 0, 1.60233)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937272615 10322665961328476161 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937306500 13206127508589641729 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937326647 16914408594147901441 0
+                          Name: Sphere_9
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937333101 3016559628826705921 0
+                              Position: (-0.181854, 0, 1.60233)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937340104 15515168997128536065 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937374268 811651374725988353 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937393183 11754730378483466241 0
+                          Name: Sphere_8
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937399113 6384362095437152257 0
+                              Position: (-1.62753, 0, 1.60233)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937406196 4941183264992788481 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937439923 10377700916345176065 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937460160 10632664468686897153 0
+                          Name: Sphere_7
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937466256 12147618868436664321 0
+                              Position: (-3.24679, 0, 1.60233)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937473189 4409412987434041345 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937506690 4965793084001484801 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937525472 13600559712868237313 0
+                          Name: Sphere_5
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937531504 11838285565613047809 0
+                              Position: (-5.09089, 0, 0)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937538329 15519678094314045441 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937571968 1159557744475242497 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937591424 17283776331359715329 0
+                          Name: Sphere_4
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937606996 7387982565375737857 0
+                              Position: (-3.41403, 0, 0)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937635289 1262435199195545601 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937672515 4620147859914752001 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937693175 3036424230527827969 0
+                          Name: Sphere_3
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937699942 7849001193832448001 0
+                              Position: (-1.74634, 0, 0)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937707721 1719520462242840577 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937763660 882874508157911041 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937786051 10658664620148916225 0
+                          Name: Sphere_2
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937796447 6286627606355771393 0
+                              Position: (3.73261, 0, 0)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937805189 6215780574620024833 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937863632 1869229278286053377 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041937889762 17929280916329332737 0
+                          Name: Sphere_1
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041937899552 16538447085704314881 0
+                              Position: (1.88102, 0, 0)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041937911100 15075356649436741633 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041937969535 16396946536279310337 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                        GameObject:
+                          DontDestroyOnLoad: False
+                          Enabled: True
+                          GUID: 1536400041938020923 1108262297224085505 0
+                          Name: Sphere
+                          Visible: True
+                          Children:
+                            Transform:
+                              Enabled: True
+                              GUID: 1536400041938037522 12143781572855726081 0
+                              Position: (0, 0, 0)
+                              Rotation: (0, 0, 0, 1)
+                              Scale: (1, 1, 1)
+                              Children:
+                                {}
+                            MeshRenderer:
+                              CastsShadows: True
+                              DepthMask: True
+                              Enabled: True
+                              GUID: 1536400041938049348 17208597223810531329 0
+                              Material: 12542352338901270529 0 0
+                              Mesh: 1536077931248630471 8760700292665704449 2
+                              ReceivesShadows: True
+                              UseReflectionProbes: False
+                              Visible: True
+                              Children:
+                                {}
+                            SphereCollider:
+                              Center: (0, 0, 0)
+                              Enabled: True
+                              GUID: 1536400041938133796 12862993019304935425 0
+                              IsTrigger: False
+                              PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                              Radius: 1
+                              Children:
+                                {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204354663 17819702487993548801 0
+                  Name: Sphere_7
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204360941 1926818673691983873 0
+                      Position: (-3.24679, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204367940 14524668449688387585 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204401917 9354256801513603073 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204486313 5013755430472515585 0
+                  Name: Sphere_4
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204512653 17268730614245228545 0
+                      Position: (-3.41403, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204520489 8642616592133259265 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204592521 11101374180979900417 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204612415 7817190673173446657 0
+                  Name: Sphere_3
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204619121 7343866860334481409 0
+                      Position: (-1.74634, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204626320 1824715824913448961 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204662278 12129528603624865793 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204704252 12810815695008825345 0
+                  Name: Sphere_2
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204711249 10348464902162612225 0
+                      Position: (3.73261, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204718979 14356590505196781569 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040204843774 3993306660192911361 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040204881042 4769351038048141313 0
+                  Name: Sphere_1
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040204894967 12484917150001135617 0
+                      Position: (1.88102, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040204911833 2419139710996709377 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040205004908 8224930266683015169 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400040205101783 12703826616556453889 0
+                  Name: Sphere
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400040205151384 1049966121999925249 0
+                      Position: (0, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400040205177429 6159410812487204865 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400040205408668 2634969445482627073 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+            GameObject:
+              DontDestroyOnLoad: False
+              Enabled: True
+              GUID: 1536400037793555879 5283800983812440065 0
+              Name: 12Spheres_1
+              Visible: True
+              Children:
+                Transform:
+                  Enabled: True
+                  GUID: 1536400037794351168 14631831250977947649 0
+                  Position: (0, 0, 3.06152)
+                  Rotation: (0, 0, 0, 1)
+                  Scale: (1, 1, 1)
+                  Children:
+                    {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037793561662 4331220118513123329 0
+                  Name: Sphere_6
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037793564240 2584709944343265281 0
+                      Position: (-5.09089, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037793569802 16878896567593992193 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037793604515 8251906234714685441 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037793625305 10690239295563759617 0
+                  Name: Sphere_10
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037793631415 5200160034775891969 0
+                      Position: (1.50593, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037793638163 14926764250012581889 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037793671648 9156133052525576193 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037793691644 7179470080772669441 0
+                  Name: Sphere_11
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037793697463 7785447222723739649 0
+                      Position: (3.61675, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037793704655 3624276747928731649 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037793737999 8082956927258066945 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037793757638 3423110100510834689 0
+                  Name: Sphere_9
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037793764017 5284861462777430017 0
+                      Position: (-0.181854, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037793771047 12804374755893313537 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037793806774 18044362400362135553 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037793826081 11239167177196044289 0
+                  Name: Sphere_8
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037793832579 4777848613663408129 0
+                      Position: (-1.62753, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037793839268 11594240163735142401 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037793872586 10978401501994549249 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037793892227 12221023364218617857 0
+                  Name: Sphere_7
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037793898446 12498923828627374081 0
+                      Position: (-3.24679, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037793905056 15164987737821413377 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037793938409 11538254131160416257 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037793956934 6356172266568417281 0
+                  Name: Sphere_5
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037793963120 1112985318140674049 0
+                      Position: (-5.09089, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037793969817 13177936030453465089 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037794003072 9764554958581006337 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037794022668 14495774383622062081 0
+                  Name: Sphere_4
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037794028767 418618230274260993 0
+                      Position: (-3.41403, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037794035418 15048355942393446401 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037794068135 380250737663279105 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037794086638 3003328105898049537 0
+                  Name: Sphere_3
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037794092685 13480509535789514753 0
+                      Position: (-1.74634, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037794099264 8632156938018226177 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037794132027 13693567401461809153 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037794151642 233925187618209793 0
+                  Name: Sphere_2
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037794157876 5112177114321256449 0
+                      Position: (3.73261, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037794164510 4402956105399926785 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037794197269 7413395027872710657 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037794215916 12897624337044996097 0
+                  Name: Sphere_1
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037794221886 8027232578450751489 0
+                      Position: (1.88102, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037794228861 15496351955130777601 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037794261948 16320734987311644673 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536400037794280630 13312094041228181505 0
+                  Name: Sphere
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536400037794286850 9853982637314539521 0
+                      Position: (0, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536400037794293417 15918353313964228609 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536400037794326373 6104517694470488065 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+            GameObject:
+              DontDestroyOnLoad: False
+              Enabled: True
+              GUID: 1536399990102949990 13683667398765314049 0
+              Name: 12Spheres
+              Visible: True
+              Children:
+                Transform:
+                  Enabled: True
+                  GUID: 1536399990102956559 4565304769677099009 0
+                  Position: (0, 0, 0)
+                  Rotation: (0, 0, 0, 1)
+                  Scale: (1, 1, 1)
+                  Children:
+                    {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399968270424173 5708907363482730497 0
+                  Name: Sphere_6
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399968270445235 6426447002501906433 0
+                      Position: (-5.09089, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399968270483274 10926336327884472321 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399968270579790 11197624329363783681 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399978121766025 3876039621921996801 0
+                  Name: Sphere_10
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399978121782175 18313511851725422593 0
+                      Position: (1.50593, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399978121796975 14372654370078588929 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399978121839375 5138266326225125377 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399979997102499 13897166168600346625 0
+                  Name: Sphere_11
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399979997195288 7018327305873260545 0
+                      Position: (3.61675, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399979997284501 9283606582359228417 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399979998081103 15512306968361435137 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399976556552914 15698821523827589121 0
+                  Name: Sphere_9
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399976556570563 8004914141674340353 0
+                      Position: (-0.181854, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399976556585678 8720944151228579841 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399976556642601 17676489998964097025 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399974210198433 7919042283545034753 0
+                  Name: Sphere_8
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399974210215251 2435450141361045505 0
+                      Position: (-1.62753, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399974210229898 11249397033380872193 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399974210281472 13824329020818325505 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399972437422723 15776215047795113985 0
+                  Name: Sphere_7
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399972437439291 10613525269782200321 0
+                      Position: (-3.24679, 0, 1.60233)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399972437454732 9020532482495217665 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399972437500683 17160486993025564673 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399966493506317 1727807206503481345 0
+                  Name: Sphere_5
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399966493522921 10292971450797129729 0
+                      Position: (-5.09089, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399966493537994 9649223885408698369 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399966493590067 17807690323460096001 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399964974577932 6825609305803194369 0
+                  Name: Sphere_4
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399964974598624 5590343726124761089 0
+                      Position: (-3.41403, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399964974617435 9313491308402180097 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399964974675175 3450702619687780353 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399962570484774 8699805490428772353 0
+                  Name: Sphere_3
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399962570501529 4579170985692889089 0
+                      Position: (-1.74634, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399962570516962 12349703608063754241 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399962570569885 11330261715557285889 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399961294124003 12788572574778916865 0
+                  Name: Sphere_2
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399961294141340 7030904619383390209 0
+                      Position: (3.73261, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399961294156156 3486377923718414337 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399961294217515 303396489789440001 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399959123845526 13427338252981895169 0
+                  Name: Sphere_1
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399959123863806 7986546799932342273 0
+                      Position: (1.88102, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399959123878150 12602388972312723457 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399959123937461 1815458074446528513 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+                GameObject:
+                  DontDestroyOnLoad: False
+                  Enabled: True
+                  GUID: 1536399956727542548 6382671596309446657 0
+                  Name: Sphere
+                  Visible: True
+                  Children:
+                    Transform:
+                      Enabled: True
+                      GUID: 1536399956727551616 7123785314383953921 0
+                      Position: (0, 0, 0)
+                      Rotation: (0, 0, 0, 1)
+                      Scale: (1, 1, 1)
+                      Children:
+                        {}
+                    MeshRenderer:
+                      CastsShadows: True
+                      DepthMask: True
+                      Enabled: True
+                      GUID: 1536399956727571103 7260148395728175105 0
+                      Material: 12542352338901270529 0 0
+                      Mesh: 1536077931248630471 8760700292665704449 2
+                      ReceivesShadows: True
+                      UseReflectionProbes: False
+                      Visible: True
+                      Children:
+                        {}
+                    SphereCollider:
+                      Center: (0, 0, 0)
+                      Enabled: True
+                      GUID: 1536399956727629991 10756627807648874497 0
+                      IsTrigger: False
+                      PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+                      Radius: 1
+                      Children:
+                        {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1536077951551722457 461531756789497857 0
+      Name: Floor
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1536077951551750750 13899931440344203265 0
+          Position: (0, -1, 0)
+          Rotation: (0, 0, 0, 1)
+          Scale: (55.5498, 0.2, 50.0913)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1536077951551776936 5990857878972399617 0
+          Material: 1536077259662658581 2608805741665976321 0
+          Mesh: 1536077931241029428 3999184374477094913 2
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1536077951551879224 15163321977705332737 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1536077951552207384 15962281002517135361 0
+      Name: Wall2
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1536077951552223839 6951915154288148481 0
+          Position: (-1.29161e-06, 3.76744, -14.8348)
+          Rotation: (0, 0.707107, 0, 0.707107)
+          Scale: (0.2, 10, 30.406)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1536077951552248867 11387827746341126145 0
+          Material: 1536077259676868166 3113569264867475457 0
+          Mesh: 1536077931241029428 3999184374477094913 2
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1536077951552355171 6868367113984147457 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1536077951551978647 12905361600369655809 0
+      Name: Wall1
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1536077951551996483 11461551100495134721 0
+          Position: (-13.0414, 3.79611, 0)
+          Rotation: (0, 0, 0, 1)
+          Scale: (0.2, 10, 32.4658)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1536077951552021626 15254166926927069185 0
+          Material: 1536077259676868166 3113569264867475457 0
+          Mesh: 1536077931241029428 3999184374477094913 2
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1536077951552115725 2819714611861782529 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1536077951552417706 16052222153180839937 0
+      Name: Camera
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1536077951552439966 12709738690579005441 0
+          Position: (13.0313, 8.5148, 4.17506)
+          Rotation: (-0.157462, 0.47482, 0.0905326, 0.861136)
+          Scale: (1, 1, 1)
+          Children:
+            {}
+        Camera:
+          ClearColor: (0.7, 0.9, 1, 1)
+          ClearMode: 1
+          Enabled: True
+          FOVDegrees: 60
+          GUID: 1536077951552493739 9713677257028927489 0
+          OrthoHeight: 25
+          ProjectionMode: 1
+          SkyBoxTexture: 1524336596855112311 1047391890401394689 0
+          ZFar: 100
+          ZNear: 0.1
+          Children:
+            {}
+        PostProcessEffectSSAO:
+          BilateralBlur: True
+          BlurRadius: 3
+          Enabled: True
+          FBSize: (295, 132)
+          GUID: 1536440294979361402 14083718107461844993 0
+          Intensity: 3.103
+          NumRandomAxes: 8
+          NumRandomSamples: 16
+          Priority: 0
+          Radius: 2
+          Separable: False
+          Type: 0
+          Children:
+            {}
+    GameObject:
+      DontDestroyOnLoad: False
+      Enabled: True
+      GUID: 1536448232310161851 5774050678649389057 0
+      Name: Cube
+      Visible: True
+      Children:
+        Transform:
+          Enabled: True
+          GUID: 1536448232310183978 64488409963429889 0
+          Position: (0, 2.82743, -12.8342)
+          Rotation: (0, 0, 0, 1)
+          Scale: (4.36541, 10.1445, 4.36541)
+          Children:
+            {}
+        MeshRenderer:
+          CastsShadows: True
+          DepthMask: True
+          Enabled: True
+          GUID: 1536448232310227943 10472946111101272065 0
+          Material: 12542352338901270529 0 0
+          Mesh: 1536077931241029428 3999184374477094913 2
+          ReceivesShadows: True
+          UseReflectionProbes: False
+          Visible: True
+          Children:
+            {}
+        BoxCollider:
+          Center: (0, 0, 0)
+          Enabled: True
+          GUID: 1536448232310359538 12335440743228243969 0
+          HalfExtents: (0.5, 0.5, 0.5)
+          IsTrigger: False
+          PhysicsMaterial: 1535038714910480479 1215681765759254529 0
+          Children:
+            {}

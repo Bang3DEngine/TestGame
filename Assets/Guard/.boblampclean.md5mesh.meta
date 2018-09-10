@@ -1,4 +1,171 @@
-NoTag:
-  GUID: 1531063594054847867 14543697697430306817 0
+Model:
+  GUID: 1536077259668209581 5211566918158254081 0
   Children:
-    {}
+    Animation0.banim:
+      GUID: 1536077259668209581 5211566918158254081 13
+      Speed: 1
+      WrapMode: 1
+      Children:
+        {}
+    Material0.bmat:
+      AlbedoColor: (1, 1, 1, 1)
+      AlbedoTexture: 1536077259670328110 14366835754544398337 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1536077259668209581 5211566918158254081 1
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.5
+      RoughnessTexture: 0 0 0
+      VertexShader: 1510299163478730097 0 0
+      Children:
+        {}
+    Material1.bmat:
+      AlbedoColor: (1, 1, 1, 1)
+      AlbedoTexture: 1536077259672643098 10187270999972511745 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1536077259668209581 5211566918158254081 2
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.5
+      RoughnessTexture: 0 0 0
+      VertexShader: 1510299163478730097 0 0
+      Children:
+        {}
+    Material2.bmat:
+      AlbedoColor: (1, 1, 1, 1)
+      AlbedoTexture: 1536077259671103255 16449638432017219585 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1536077259668209581 5211566918158254081 3
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.5
+      RoughnessTexture: 0 0 0
+      VertexShader: 1510299163478730097 0 0
+      Children:
+        {}
+    Material3.bmat:
+      AlbedoColor: (0, 0, 0, 1)
+      AlbedoTexture: 0 0 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1536077259668209581 5211566918158254081 4
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.5
+      RoughnessTexture: 0 0 0
+      VertexShader: 1510299163478730097 0 0
+      Children:
+        {}
+    Material4.bmat:
+      AlbedoColor: (0, 0, 0, 1)
+      AlbedoTexture: 0 0 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1536077259668209581 5211566918158254081 5
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.5
+      RoughnessTexture: 0 0 0
+      VertexShader: 1510299163478730097 0 0
+      Children:
+        {}
+    Material5.bmat:
+      AlbedoColor: (1, 1, 1, 1)
+      AlbedoTexture: 1536077259670328110 14366835754544398337 0
+      AlbedoUvMultiply: (1, 1)
+      AlbedoUvOffset: (0, 0)
+      CullFace: 1029
+      FragmentShader: 1510299163478634161 0 0
+      GUID: 1536077259668209581 5211566918158254081 6
+      LineWidth: 1
+      Metalness: 0.1
+      MetalnessTexture: 0 0 0
+      NormalMapMultiplyFactor: 1
+      NormalMapTexture: 0 0 0
+      NormalMapUvMultiply: (1, 1)
+      NormalMapUvOffset: (0, 0)
+      ReceivesLighting: True
+      RenderPass: 0
+      RenderWireframe: False
+      Roughness: 0.5
+      RoughnessTexture: 0 0 0
+      VertexShader: 1510299163478730097 0 0
+      Children:
+        {}
+    __Mesh0.bmesh:
+      GUID: 1536077259668209581 5211566918158254081 7
+      Children:
+        {}
+    __Mesh1.bmesh:
+      GUID: 1536077259668209581 5211566918158254081 8
+      Children:
+        {}
+    __Mesh2.bmesh:
+      GUID: 1536077259668209581 5211566918158254081 9
+      Children:
+        {}
+    __Mesh3.bmesh:
+      GUID: 1536077259668209581 5211566918158254081 10
+      Children:
+        {}
+    __Mesh4.bmesh:
+      GUID: 1536077259668209581 5211566918158254081 11
+      Children:
+        {}
+    __Mesh5.bmesh:
+      GUID: 1536077259668209581 5211566918158254081 12
+      Children:
+        {}

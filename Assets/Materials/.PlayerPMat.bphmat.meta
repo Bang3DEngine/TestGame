@@ -1,9 +1,4 @@
-PhysicsMaterial:
-  DynamicFriction: 0
-  FrictionCombineMode: 1
-  GUID: 1535584924006067100 10769572358042681345 0
-  Restitution: 0
-  RestitutionCombineMode: 1
-  StaticFriction: 0
+NoName:
+  GUID: 1536077259660150238 4345341146348650497 0
   Children:
     {}

@@ -7,6 +7,7 @@ void Player::OnStart()
     rb = GetGameObject()->GetComponent<RigidBody>();
 }
 
+#include "Bang/MaterialFactory.h"
 void Player::OnUpdate()
 {
     Behaviour::OnUpdate();

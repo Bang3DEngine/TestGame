@@ -102,6 +102,7 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/nv_dds.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/HideFlags.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IEventsFocus.h
+/home/sephirot47/Projects/BangEditor/Bang/include/Bang/MetaFilesManager.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IFocusable.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IInvalidatable.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/GameObjectFactory.h
@@ -142,6 +143,7 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/UIDragDroppable.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/VBO.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/SphereCollider.h
+/home/sephirot47/Projects/BangEditor/Bang/include/Bang/NeededUniformFlags.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/RenderPass.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/ShaderProgramFactory.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/IEventsDestroy.h
@@ -235,10 +237,8 @@
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Cursor.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/TextureUnitManager.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/GBuffer.h
-/home/sephirot47/Projects/BangEditor/Bang/include/Bang/XMLMetaReader.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/AABox.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Triangle.h
-/home/sephirot47/Projects/BangEditor/Bang/include/Bang/ImportFilesManager.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Geometry.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Object.h
 /home/sephirot47/Projects/BangEditor/Bang/include/Bang/Array.h

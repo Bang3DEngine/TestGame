@@ -1,11 +1,11 @@
 Material:
   AlbedoColor: (1, 1, 1, 1)
-  AlbedoTexture: 1535622137995442958 11037777328917708801 0
-  AlbedoUvMultiply: (7, 15)
+  AlbedoTexture: 1536078374908904886 9961749070487748609 0
+  AlbedoUvMultiply: (2, 2)
   AlbedoUvOffset: (0, 0)
   CullFace: 1029
   FragmentShader: 1510299163478634161 0 0
-  GUID: 1535622574517515157 5055114659862937601 0
+  GUID: 1536077259662658581 2608805741665976321 0
   LineWidth: 1
   Metalness: 0.19
   MetalnessTexture: 0 0 0

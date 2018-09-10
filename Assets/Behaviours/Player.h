@@ -17,8 +17,8 @@ private:
     float jumpForce = 10.0f;
     RigidBody *rb = nullptr;
 
-    float moveSpeed = 5.0f;
-    float rotSpeed = 1.0f;
+    float moveSpeed = 10.0f;
+    float rotSpeed = 3.0f;
     float rotY = 0.0f;
 };
 
